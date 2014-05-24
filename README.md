@@ -11,6 +11,10 @@ instructions
 
 The setup installs a script "startirssi.sh" with u+x permissions
 and adds "@reboot ~/startirssi.sh" to the end of your crontab.
+Furthermore, the irssi session is started.
+
+Now, you can attach to the session with
+screen -r <your session name>
 
 Notes
 =====

@@ -13,4 +13,7 @@ sed -i.bak s/\$1/$1/g ~/startirssi.sh
 echo "Adding the cronjob..."
 (crontab -l ; echo "@reboot ~/startirssi.sh") | crontab
 
+echo "Starting the screen session now..."
+~/startirssi.sh
+
 echo "Done! Have fun!"
