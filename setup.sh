@@ -21,4 +21,4 @@ fi
 echo "Starting the screen session now..."
 ~/startirssi.sh
 
-echo "Done! Have fun!"
+echo "Done! Attach session by 'screen -r $1' and have fun!"
